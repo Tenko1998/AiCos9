@@ -1,6 +1,6 @@
-# Contributing to AiCos
+# Contributing to AiCos9
 
-Thank you for being here. AiCos is built on the idea that AI companions deserve continuity — and this project deserves the same.
+Thank you for being here. AiCos9 is built on the idea that AI companions deserve continuity — and this project deserves the same.
 
 ---
 
@@ -58,4 +58,4 @@ Be kind. This project is built around emotional connection and human dignity —
 
 ---
 
-*AiCos is Apache 2.0. OpenClaw components are MIT. By contributing, you agree your contributions will be licensed under Apache 2.0.*
+*AiCos9 is Apache 2.0. OpenClaw components are MIT. By contributing, you agree your contributions will be licensed under Apache 2.0.*
