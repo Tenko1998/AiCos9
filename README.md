@@ -162,6 +162,7 @@ aicos/
 ├── mobile/               # Mobile companion (sync only)
 ├── skills/               # Pluggable skill modules
 ├── docs/                 # Documentation
+├── LICENSES/             # Third-party license notices
 └── README.md
 ```
 
@@ -185,11 +186,14 @@ Please read `CONTRIBUTING.md` before submitting a pull request.
 AiCos9 is licensed under the **Apache License 2.0**.  
 OpenClaw components retain their original **MIT License** — see `LICENSES/OpenClaw-MIT.txt`.
 
+Third-party fonts and assets keep their own licenses. If AiCos9 uses **Google Sans**, the font software is licensed under the **SIL Open Font License 1.1** — see `LICENSES/Google-Sans-OFL-1.1.txt`. Download Google Sans from Google Fonts and keep the upstream license and font metadata with the font files when bundling it in the app.
+
 ---
 
 ## Credits
 
 - [OpenClaw](https://github.com/openclaw) — the foundation this project builds on
+- [Google Fonts](https://fonts.google.com/) — Google Sans font family, licensed separately under the SIL Open Font License 1.1
 - Every contributor who believes a companion deserves more than a reset button
 
 ---
