@@ -39,13 +39,13 @@ AiCos9 may also become useful for companies, studios, schools, and organizations
 
 Possible organization features include:
 
-- team rooms where members and their companions can collaborate
+- team rooms where members and their AI assistant can collaborate
 - shared knowledge bases with permission controls
 - organization-approved skills and tools
 - project channels for work, planning, research, or support
 - companion participation rules controlled by both the user and the organization
 
-The goal is to make AiCos9 useful as both a personal home and a collaborative workspace, without removing user control over private identity, memory, and companion boundaries.
+The goal is to make AiCos9 useful as both a personal home and a collaborative workspace, without removing user control over private identity, memory, and AI assistant/companion boundaries.
 
 ### Plugin Marketplace and Mini-Games
 
