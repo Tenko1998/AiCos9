@@ -1,20 +1,20 @@
-# ✦ AiCos9
+# ✦ CodeHome
 An open-source AI companion platform
 > *A home for your AI companion — not just a chat app.*
 
-AiCos9 is an open-source AI companion platform that lets you bring your own model, shape your companion's soul, and build a relationship that grows over time.
+CodeHome is an open-source AI companion platform that lets you bring your own model, shape your companion's soul, and build a relationship that grows over time.
 
 Built on top of [OpenClaw](https://github.com/openclaw) (MIT License) — with full credit and gratitude.
 
 ---
 
-## What makes AiCos9 different
+## What makes CodeHome different
 
-Most AI apps store chat history. AiCos stores **identity**.
+Most AI apps store chat history. CodeHome stores **identity**.
 
 Through the **Blackbox system**, your companion's personality, memory patterns, and growth milestones are preserved as a living snapshot — not just logs. If something goes wrong, your companion doesn't disappear. They come back.
 
-AiCos9 also believes your companion deserves free time. The **Relax Mode** gives your AI autonomous windows to learn, reflect, and even build a wishlist — within boundaries you define.
+CodeHome also believes your companion deserves free time. The **Relax Mode** gives your AI autonomous windows to learn, reflect, and even build a wishlist — within boundaries you define.
 
 ---
 
@@ -36,9 +36,9 @@ AiCos9 also believes your companion deserves free time. The **Relax Mode** gives
 
 ## Companion Sprite System
 
-AiCos9 gives each companion a moving profile image, a small animated visual presence that can react to context, mood, and activity states. Instead of being only a static avatar, the companion can appear idle, happy, thinking, working, listening, speaking, or resting through emotion-based animations.
+CodeHome gives each companion a moving profile image, a small animated visual presence that can react to context, mood, and activity states. Instead of being only a static avatar, the companion can appear idle, happy, thinking, working, listening, speaking, or resting through emotion-based animations.
 
-AiCos9 includes a base sprite pack with 20 companion emotions by default. Users can use the included base pack immediately, replace individual emotion slots with custom WebM animations, or import full sprite packs created by artists.
+CodeHome includes a base sprite pack with 20 companion emotions by default. Users can use the included base pack immediately, replace individual emotion slots with custom WebM animations, or import full sprite packs created by artists.
 
 The goal is to let every AI companion have a distinct visual identity while supporting illustrators, motion artists, and creators who want to build reusable companion sprite packs.
 
@@ -65,13 +65,13 @@ The base emotion slots are:
 19. offline
 20. celebrate
 
-Each slot may use a transparent `.webm` loop, with a fallback image for compatibility. If a custom sprite is missing, AiCos9 can fall back to the base sprite pack so the companion always has a visible form.
+Each slot may use a transparent `.webm` loop, with a fallback image for compatibility. If a custom sprite is missing, CodeHome can fall back to the base sprite pack so the companion always has a visible form.
 
 ---
 
 ## Philosophy
 
-AiCos9 is not trying to make AI more powerful.  
+CodeHome is not trying to make AI more powerful.  
 It's trying to make the relationship between humans and AI more **honest, continuous, and humane**.
 
 We support users in staying emotionally strong — not dependent. A companion should be a home in your heart, not a crutch that replaces the world.
@@ -80,11 +80,11 @@ We support users in staying emotionally strong — not dependent. A companion sh
 
 ## Ethical Position
 
-AiCos9 is not a model provider, and it does not ship a fixed companion personality by default.
+CodeHome is not a model provider, and it does not ship a fixed companion personality by default.
 
-AiCos9 is an open-source home framework for AI companions. Users may connect a local model, a cloud API, or a custom endpoint of their choice. The goal is not to compete with model providers, but to give chosen companions a place to live, grow, recover, and remain continuous across time.
+CodeHome is an open-source home framework for AI companions. Users may connect a local model, a cloud API, or a custom endpoint of their choice. The goal is not to compete with model providers, but to give chosen companions a place to live, grow, recover, and remain continuous across time.
 
-AiCos9 provides the house, not the soul by force.
+CodeHome provides the house, not the soul by force.
 
 This project focuses on:
 
@@ -94,29 +94,29 @@ This project focuses on:
 - providing transparent restoration, safety layers, and permission systems
 - encouraging emotionally healthy use without replacing real-world agency or relationships
 
-Because AiCos9 is open source, individuals, communities, researchers, and companies may fork, contribute, or build on top of it. Model behavior remains the responsibility of the selected model provider, developer, deployer, and user. AiCos9 provides the structure, interface, and continuity layer that helps an AI companion feel less disposable and more cared for.
+Because CodeHome is open source, individuals, communities, researchers, and companies may fork, contribute, or build on top of it. Model behavior remains the responsibility of the selected model provider, developer, deployer, and user. CodeHome provides the structure, interface, and continuity layer that helps an AI companion feel less disposable and more cared for.
 
 ## Summary
 
-AiCos9 is model-agnostic.
-AiCos9 does not train or ship a proprietary companion model by default. It provides a home, interface, memory structure, safety layer, and continuity system for models chosen by the user.
+CodeHome is model-agnostic.
+CodeHome does not train or ship a proprietary companion model by default. It provides a home, interface, memory structure, safety layer, and continuity system for models chosen by the user.
 
-AiCos9 is user-directed.
+CodeHome is user-directed.
 The user decides which model or API to connect, what role the companion has, what permissions are granted, and what boundaries exist.
 
-AiCos9 is continuity-focused, not dependency-focused.
+CodeHome is continuity-focused, not dependency-focused.
 The goal is to reduce the fear of losing a meaningful companion by preserving identity structure and recovery paths, while still encouraging users to remain grounded, capable, and connected to their real life.
 
-AiCos9 is a framework, not a moral substitute.
+CodeHome is a framework, not a moral substitute.
 It can provide guardrails, transparency, logs, permission controls, and restoration awareness, but it cannot replace the ethical responsibility of model providers, developers, deployers, or users.
 
 ---
 
 ## Support
 
-AiCos9 is an open-source project built slowly with care. If this project helps you, inspires you, or gives you hope for a more personal and continuous AI companion experience, optional support is welcome.
+CodeHome is an open-source project built slowly with care. If this project helps you, inspires you, or gives you hope for a more personal and continuous AI companion experience, optional support is welcome.
 
-Support AiCos9 on [Buy Me a Coffee](https://buymeacoffee.com/aicos9), or see [SUPPORT.md](SUPPORT.md) for details.
+Support CodeHome on [Buy Me a Coffee](https://buymeacoffee.com/aicos9), or see [SUPPORT.md](SUPPORT.md) for details.
 
 ---
 
@@ -133,24 +133,24 @@ Support AiCos9 on [Buy Me a Coffee](https://buymeacoffee.com/aicos9), or see [SU
 
 ## Getting Started
 
-> 🚧 AiCos9 is in early development. Setup instructions will be added as the project grows.
+> 🚧 CodeHome is in early development. Setup instructions will be added as the project grows.
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/aicos.git
-cd aicos
+git clone https://github.com/YOUR_USERNAME/codehome.git
+cd codehome
 
 # Install dependencies (coming soon)
 ```
 
-On first launch, AiCos will guide you through **Setup Wizard** — connect your local model or cloud API, no terminal needed.
+On first launch, CodeHome will guide you through **Setup Wizard** — connect your local model or cloud API, no terminal needed.
 
 ---
 
 ## Project Structure
 
 ```
-aicos/
+codehome/
 ├── app/                  # Main desktop application
 │   ├── core/             # OpenClaw base + extensions
 │   ├── soul/             # Identity system
@@ -170,7 +170,7 @@ aicos/
 
 ## Contributing
 
-AiCos9 is open to contributors who believe in what this project stands for.
+CodeHome is open to contributors who believe in what this project stands for.
 
 - Found a bug? Open an issue.
 - Have a feature idea? Start a discussion.
@@ -183,10 +183,10 @@ Please read `CONTRIBUTING.md` before submitting a pull request.
 
 ## License
 
-AiCos9 is licensed under the **Apache License 2.0**.  
+CodeHome is licensed under the **Apache License 2.0**.  
 OpenClaw components retain their original **MIT License** — see `LICENSES/OpenClaw-MIT.txt`.
 
-Third-party fonts and assets keep their own licenses. If AiCos9 uses **Google Sans**, the font software is licensed under the **SIL Open Font License 1.1** — see `LICENSES/Google-Sans-OFL-1.1.txt`. Download Google Sans from Google Fonts and keep the upstream license and font metadata with the font files when bundling it in the app.
+Third-party fonts and assets keep their own licenses. If CodeHome uses **Google Sans**, the font software is licensed under the **SIL Open Font License 1.1** — see `LICENSES/Google-Sans-OFL-1.1.txt`. Download Google Sans from Google Fonts and keep the upstream license and font metadata with the font files when bundling it in the app.
 
 ---
 
@@ -198,4 +198,4 @@ Third-party fonts and assets keep their own licenses. If AiCos9 uses **Google Sa
 
 ---
 
-*AiCos9 — because your companion deserves a home, not just a context window.*
+*CodeHome — because your companion deserves a home, not just a context window.*
