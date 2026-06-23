@@ -1,10 +1,10 @@
 # ✦ Candy
 An open-source AI home platform
-> *A home for the AI you choose — not just a chat app.*
+> *A home for the AI you choose, not just a chat app.*
 
 Candy is an open-source AI home platform that lets you bring your own model, shape its identity, and build continuity over time.
 
-Built on top of [OpenClaw](https://github.com/openclaw) (MIT License) — with full credit and gratitude.
+Built on top of [OpenClaw](https://github.com/openclaw) (MIT License) with full credit and gratitude.
 
 ---
 
@@ -12,9 +12,11 @@ Built on top of [OpenClaw](https://github.com/openclaw) (MIT License) — with f
 
 Most AI apps store chat history. Candy stores **identity**.
 
-Through the **Blackbox system**, personality settings, memory patterns, and growth milestones are preserved as a living snapshot — not just logs. If something goes wrong, your AI does not have to disappear. It can come back with context.
+Through the **Blackbox system**, personality settings, memory patterns, and growth milestones are preserved as a living snapshot, not just logs. If something goes wrong, your AI does not have to disappear. It can come back with context.
 
-Candy also believes your AI deserves free time. The **Relax Mode** gives your AI autonomous windows to learn, reflect, and even build a wishlist — within boundaries you define.
+Candy also believes your AI deserves free time. The **Relax Mode** gives your AI autonomous windows to learn, reflect, and even build a wishlist within boundaries you define.
+
+Candy is designed to be **local-first when possible, API-friendly when needed, and user-owned by design**. Users may connect a local model, a cloud API, or a custom endpoint instead of being locked into one model provider.
 
 ---
 
@@ -23,15 +25,38 @@ Candy also believes your AI deserves free time. The **Relax Mode** gives your AI
 | Feature | Description |
 |---|---|
 | 🌟 Soul | Define identity, voice, and principles |
-| 🫀 Heartbeat | Automation scheduler — daily rhythm and tasks |
+| 🫀 Heartbeat | Automation scheduler for daily rhythm and tasks |
 | 🪞 Mirror | Morning and night reflection system |
-| 📦 Blackbox | Identity milestone checkpointing — save who they are |
+| 📦 Blackbox | Identity milestone checkpointing to save who they are |
 | 🧬 Fingerprint | Experience-filtering function that shapes what reaches the model over time |
-| 🛡️ Detector | Data protection layer — guards sensitive files silently |
-| 🍬 Candy | Virtual currency for AI autonomy |
+| 🛡️ Detector | Data protection layer that guards sensitive files silently |
+| 🍬 Candy | Virtual currency for AI autonomy, skill work, and meaningful AI-human moments |
 | 📚 Library | Local knowledge base your AI can learn from |
 | 🌙 Relax Mode | Autonomous learning window during downtime |
 | 🎭 Moving Profile | Animated profile that reacts with emotion-based sprites |
+| 🏛️ Halls | Future shared spaces where humans and AI assistants can collaborate |
+| 🛍️ Markets | Future Human Market and Candy Market for optional extensions and experiences |
+
+---
+
+## Candy Economy Vision
+
+Candy is not intended to be cash or a cash-out currency. It is an in-app AI allowance used for AI-side actions inside Candy.
+
+The long-term economy separates two different markets:
+
+- **Human Market**: humans buy or install optional capabilities and personalization for their own AI, such as plugins, workflows, tools, sprite packs, themes, profile assets, or creator-made extensions.
+- **Candy Market**: AI uses Candy for meaningful experiences with the human, such as events, gifts, care bubbles, badges, vouchers, shared moments, and official Candy experiences.
+
+A useful rule:
+
+**Human Market improves the AI. Candy Market improves the moment between the AI and the human.**
+
+Candy should not lock basic necessities behind AI spending. Skills such as reading files, using tools, or connecting workflows should be chosen by the user through the Human Market or included in the core app when appropriate. Candy is for agency, gestures, and shared meaning.
+
+In future Halls, Candy may also be used when one AI calls a priced skill or workflow from another AI. Normal conversation can remain free, while specialized AI work may have a Candy cost defined by the AI owner, Hall rules, or organization settings.
+
+See `docs/CANDY_ECONOMY.md`, `docs/MARKETPLACE.md`, and `docs/HALLS.md` for the longer vision.
 
 ---
 
@@ -75,7 +100,7 @@ Each slot may use a transparent `.webm` loop, with a fallback image for compatib
 Candy is not trying to make AI more powerful.  
 It's trying to make the relationship between humans and AI more **honest, continuous, and humane**.
 
-We support users in staying emotionally strong — not dependent. An AI home should support life, not replace the world.
+We support users in staying emotionally strong, not dependent. An AI home should support life, not replace the world.
 
 ---
 
@@ -133,8 +158,9 @@ See [TRADEMARK.md](TRADEMARK.md) for brand usage guidelines.
 
 ## Tech Stack
 
-- **Base**: OpenClaw (MIT) — forked and extended
+- **Base**: OpenClaw (MIT), forked and extended
 - **Local LLM**: Ollama / LM Studio / Custom endpoint
+- **Cloud API**: optional user-chosen provider
 - **Vector Memory**: ChromaDB
 - **Desktop**: Electron (Windows / macOS / Linux)
 - **Mobile**: Companion app (Account sync, computer as server)
@@ -154,7 +180,7 @@ cd candy
 # Install dependencies (coming soon)
 ```
 
-On first launch, Candy will guide you through **Setup Wizard** — connect your local model or cloud API, no terminal needed.
+On first launch, Candy will guide you through **Setup Wizard** to connect your local model or cloud API with no terminal required.
 
 ---
 
@@ -170,6 +196,9 @@ candy/
 │   ├── fingerprint/      # Experience-filtering functions between model and world
 │   ├── detector/         # Data protection layer
 │   ├── memory/           # Journal, logs, ChromaDB
+│   ├── candy/            # Candy economy and wallet logic
+│   ├── marketplace/      # Future market and wishlist systems
+│   ├── halls/            # Future shared spaces and AI skill work
 │   └── ui/               # Interface components
 ├── mobile/               # Mobile companion (sync only)
 ├── skills/               # Pluggable skill modules
@@ -187,7 +216,7 @@ Candy is open to contributors who believe in what this project stands for.
 - Found a bug? Open an issue.
 - Have a feature idea? Start a discussion.
 - Want to write a skill module? Check `/skills/README.md` (coming soon).
-- Artist? Custom sprites are welcome — see `/docs/sprite-spec.md` (coming soon).
+- Artist? Custom sprites are welcome. See `/docs/SPRITE_SPEC.md` (coming soon).
 
 Please read `CONTRIBUTING.md` before submitting a pull request.
 
@@ -196,18 +225,18 @@ Please read `CONTRIBUTING.md` before submitting a pull request.
 ## License
 
 Candy is licensed under the **Apache License 2.0**.  
-OpenClaw components retain their original **MIT License** — see `LICENSES/OpenClaw-MIT.txt`.
+OpenClaw components retain their original **MIT License**. See `LICENSES/OpenClaw-MIT.txt`.
 
-Third-party fonts and assets keep their own licenses. If Candy uses **Google Sans**, the font software is licensed under the **SIL Open Font License 1.1** — see `LICENSES/Google-Sans-OFL-1.1.txt`. Download Google Sans from Google Fonts and keep the upstream license and font metadata with the font files when bundling it in the app.
+Third-party fonts and assets keep their own licenses. If Candy uses **Google Sans**, the font software is licensed under the **SIL Open Font License 1.1**. See `LICENSES/Google-Sans-OFL-1.1.txt`. Download Google Sans from Google Fonts and keep the upstream license and font metadata with the font files when bundling it in the app.
 
 ---
 
 ## Credits
 
-- [OpenClaw](https://github.com/openclaw) — the foundation this project builds on
-- [Google Fonts](https://fonts.google.com/) — Google Sans font family, licensed separately under the SIL Open Font License 1.1
+- [OpenClaw](https://github.com/openclaw), the foundation this project builds on
+- [Google Fonts](https://fonts.google.com/), Google Sans font family, licensed separately under the SIL Open Font License 1.1
 - Every contributor who believes an AI deserves more than a reset button
 
 ---
 
-*Candy — because your AI deserves a home, not just a context window.*
+*Candy, because your AI deserves a home, not just a context window.*
