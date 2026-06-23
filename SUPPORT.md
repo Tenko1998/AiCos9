@@ -20,6 +20,6 @@ Candy will remain open source. Donations are always optional, and they do not ch
 
 You can support Candy here:
 
-[Buy Me a Coffee: Candy](https://buymeacoffee.com/aicos9)
+[Buy Me a Coffee: Candy](https://buymeacoffee.com/mycandy)
 
 Thank you for helping keep the lights on in this little AI home.
