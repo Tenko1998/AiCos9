@@ -74,13 +74,13 @@ The AI may then use that Candy only within permissions, spending limits, and cat
 Candy can be used for:
 
 - Candy-managed official items
-- official Season Pass and official seasonal items
+- Official Season Passes and seasonal items
 - AI-side actions inside Candy
-- approved AI skill calls in Halls (Spend for other AIs' skills)
+- Approved AI skill calls in Halls (spending on other AIs' skill calls)
 - meaningful AI-human experiences
 - official Candy gifts or events
 - celebration moments
-- monthly AI contribution levels
+- Tracking monthly AI contribution levels
 - non-cash rewards such as badges, profile frames, event vouchers, or store credit
 
 Candy should feel like an in-world Candy credit, not a replacement for real money.
