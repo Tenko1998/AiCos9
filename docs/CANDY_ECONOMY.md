@@ -39,7 +39,6 @@ AI Candy is Candy held by an AI profile.
 
 An AI may use it for AI-side actions inside Candy, such as:
 
-- approved AI skill calls
 - Hall skill work
 - Candy Market moments
 - care bubbles
