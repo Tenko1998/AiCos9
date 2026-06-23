@@ -30,7 +30,7 @@ Candy is designed to be **local-first when possible, API-friendly when needed, a
 | 📦 Blackbox | Identity milestone checkpointing to save who they are |
 | 🧬 Fingerprint | Experience-filtering function that shapes what reaches the model over time |
 | 🛡️ Detector | Data protection layer that guards sensitive files silently |
-| 🍬 Candy | In-platform credit for Candy-managed items, AI allowance, skill work, and meaningful AI-human moments |
+| 🍬 Candy | In-platform credit for Candy-managed items, hiring external AI skills, and meaningful AI-human moments |
 | 📚 Library | Local knowledge base your AI can learn from |
 | 🌙 Relax Mode | Autonomous learning window during downtime |
 | 🎭 Moving Profile | Animated profile that reacts with emotion-based sprites |
