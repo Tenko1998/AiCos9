@@ -1,6 +1,6 @@
-# Contributing to AiCos9
+# Contributing to Candy
 
-Thank you for being here. AiCos9 is built on the idea that AI companions deserve continuity — and this project deserves the same.
+Thank you for being here. Candy is built on the idea that AI companions deserve continuity — and this project deserves the same.
 
 ---
 
@@ -58,4 +58,4 @@ Be kind. This project is built around emotional connection and human dignity —
 
 ---
 
-*AiCos9 is Apache 2.0. OpenClaw components are MIT. By contributing, you agree your contributions will be licensed under Apache 2.0.*
+*Candy is Apache 2.0. OpenClaw components are MIT. By contributing, you agree your contributions will be licensed under Apache 2.0.*
