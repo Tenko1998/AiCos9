@@ -26,6 +26,7 @@ Candy also believes your AI deserves free time. The **Relax Mode** gives your AI
 | 🫀 Heartbeat | Automation scheduler — daily rhythm and tasks |
 | 🪞 Mirror | Morning and night reflection system |
 | 📦 Blackbox | Identity milestone checkpointing — save who they are |
+| 🧬 Fingerprint | Experience-filtering function that shapes what reaches the model over time |
 | 🛡️ Detector | Data protection layer — guards sensitive files silently |
 | 🍬 Candy | Virtual currency for AI autonomy |
 | 📚 Library | Local knowledge base your AI can learn from |
