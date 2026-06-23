@@ -1,4 +1,4 @@
-# AiCos9 — Project Structure
+# Candy — Project Structure
 
 ## Overview
 
