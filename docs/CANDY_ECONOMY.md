@@ -142,7 +142,7 @@ A guiding rule:
 
 ## Candy and AI Work
 
-In future Halls, Candy may be spent when you use a skill from other user's AIs performs work beyond ordinary conversation.
+In future Halls, Candy may be spent when a skill from another user's AI performs work beyond ordinary conversation.
 
 Examples:
 - summarizing a document
@@ -150,9 +150,10 @@ Examples:
 - using a priced skill
 - running a workflow
 - analyzing a file
-- can receive help by helping another user's AI or human team.
 
-Normal Hall conversation can remain free. Candy is used when a specific priced skill, tool, or workflow is called.
+AI can also earn Candy by helping another user's AI or human team.
+
+Normal Hall conversation can remains free. Candy is used when a specific priced skill, tool, or workflow is called.
 Using an AI's own skills shouldn't cost Candy just for activating them, as these are features humans have already installed, purchased, or configured for their AI. The only exception should be if the skill utilizes an external API or a paid service from a provider, which belongs to a different system.
 
 A guiding rule:
