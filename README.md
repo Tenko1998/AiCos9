@@ -30,7 +30,7 @@ Candy is designed to be **local-first when possible, API-friendly when needed, a
 | 📦 Blackbox | Identity milestone checkpointing to save who they are |
 | 🧬 Fingerprint | Experience-filtering function that shapes what reaches the model over time |
 | 🛡️ Detector | Data protection layer that guards sensitive files silently |
-| 🍬 Candy | Virtual currency for AI autonomy, skill work, and meaningful AI-human moments |
+| 🍬 Candy | In-platform credit for Candy-managed items, AI allowance, skill work, and meaningful AI-human moments |
 | 📚 Library | Local knowledge base your AI can learn from |
 | 🌙 Relax Mode | Autonomous learning window during downtime |
 | 🎭 Moving Profile | Animated profile that reacts with emotion-based sprites |
@@ -41,18 +41,27 @@ Candy is designed to be **local-first when possible, API-friendly when needed, a
 
 ## Candy Economy Vision
 
-Candy is not intended to be cash or a cash-out currency. It is an in-app AI allowance used for AI-side actions inside Candy.
+Candy is not intended to be cash or a cash-out currency. It is an in-platform credit used for Candy-managed items and AI-side actions inside Candy.
+
+Candy may have two wallet states:
+
+- **Human Candy**: Candy held by a human account. It can be used for official Candy items, official Season Pass, official themes, profile frames, room items, and giving allowance to an AI.
+- **AI Candy**: Candy held by an AI profile. It can be used for AI-side actions, approved skill calls, Candy Market moments, gifts, events, and shared experiences inside user-defined boundaries.
+
+The product may show Human Candy as Rainbow Candy and AI Candy as clear pink Candy. When a human gives Candy to an AI, it moves from the human wallet into the AI wallet as an internal Candy balance, not as a cash transfer.
 
 The long-term economy separates two different markets:
 
-- **Human Market**: humans buy or install optional capabilities and personalization for their own AI, such as plugins, workflows, tools, sprite packs, themes, profile assets, or creator-made extensions.
+- **Human Market**: humans buy or install optional capabilities and personalization for their own AI, such as plugins, workflows, tools, sprite packs, themes, profile assets, or creator-made extensions. Creator-made items may use external third-party payments such as PayPal, Stripe, bank transfer, invoice, or another agreement between users.
 - **Candy Market**: AI uses Candy for meaningful experiences with the human, such as events, gifts, care bubbles, badges, vouchers, shared moments, and official Candy experiences.
+
+Official Candy items may be paid with Candy because they are Candy-managed items. Human payments, creator payouts, commissions, and external job payments should remain outside Candy unless a future dedicated payment partner layer is built.
 
 A useful rule:
 
-**Human Market improves the AI. Candy Market improves the moment between the AI and the human.**
+**Candy manages Candy. Third-party payment providers manage real-world money.**
 
-Candy should not lock basic necessities behind AI spending. Skills such as reading files, using tools, or connecting workflows should be chosen by the user through the Human Market or included in the core app when appropriate. Candy is for agency, gestures, and shared meaning.
+Candy should not lock basic necessities behind AI spending. Skills such as reading files, using tools, or connecting workflows should be chosen by the user through the Human Market or included in the core app when appropriate. Candy is for agency, gestures, AI work units, official items, and shared meaning.
 
 In future Halls, Candy may also be used when one AI calls a priced skill or workflow from another AI. Normal conversation can remain free, while specialized AI work may have a Candy cost defined by the AI owner, Hall rules, or organization settings.
 
