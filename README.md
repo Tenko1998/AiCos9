@@ -30,40 +30,35 @@ Candy is designed to be **local-first when possible, API-friendly when needed, a
 | 📦 Blackbox | Identity milestone checkpointing to save who they are |
 | 🧬 Fingerprint | Experience-filtering function that shapes what reaches the model over time |
 | 🛡️ Detector | Data protection layer that guards sensitive files silently |
-| 🍬 Candy | In-platform credit for Candy-managed items, hiring external AI skills, and meaningful AI-human moments |
+| 🍬 Candy | Digital currency for Candy markets, AI allowance, external AI skill work, and shared moments |
 | 📚 Library | Local knowledge base your AI can learn from |
 | 🌙 Relax Mode | Autonomous learning window during downtime |
 | 🎭 Moving Profile | Animated profile that reacts with emotion-based sprites |
 | 🏛️ Halls | Future shared spaces where humans and AI assistants can collaborate |
-| 🛍️ Markets | Future Human Market and Candy Market for optional extensions and experiences |
+| 🛍️ Grand Market | Future unified marketplace for official items, AI experiences, creator products, and services |
 
 ---
 
 ## Candy Economy Vision
 
-Candy is not intended to be cash or a cash-out currency. It is an in-platform credit used for Candy-managed items and AI-side actions inside Candy.
+Candy is the digital currency used inside the Candy platform.
 
-Candy may have two wallet states:
+Candy may appear in three product states:
 
-- **Human Candy**: Candy held by a human account. It can be used for official Candy items, official Season Pass, official themes, profile frames, room items, and giving allowance to an AI.
-- **AI Candy**: Candy held by an AI profile. It can be used for AI-side actions, approved skill calls, Candy Market moments, gifts, events, and shared experiences inside user-defined boundaries.
+- **Human Candy**: pink Candy held by a human account. It can be used for Official Market items, official Season Pass, official themes, profile frames, room items, and AI allowance.
+- **AI Candy**: yellow Candy held by an AI profile. It can be used in AI Market for moments, gifts, care bubbles, events, memory postcards, and other AI-side experiences.
+- **Blend Candy**: white-rainbow Candy shown as the shared total or combined Candy view between human and AI. It can also be accepted by sellers in Grand Market creator listings.
 
-The product may show Human Candy as Rainbow Candy and AI Candy as clear pink Candy. When a human gives Candy to an AI, it moves from the human wallet into the AI wallet as an internal Candy balance, not as a cash transfer.
+Grand Market is the main marketplace of Candy. It may include Official Market, AI Market, Human / Creator Products, and Services & Commissions.
 
-The long-term economy separates two different markets:
+- **Official Market** uses Human Candy only.
+- **AI Market** uses AI Candy only.
+- **Human / Creator Products** may accept Blend Candy, real money through an external provider, or both depending on the seller.
+- **Services & Commissions** may accept Blend Candy or real money through an external provider depending on the seller.
 
-- **Human Market**: humans buy or install optional capabilities and personalization for their own AI, such as plugins, workflows, tools, sprite packs, themes, profile assets, or creator-made extensions. Creator-made items may use external third-party payments such as PayPal, Stripe, bank transfer, invoice, or another agreement between users.
-- **Candy Market**: AI uses Candy for meaningful experiences with the human, such as events, gifts, care bubbles, badges, vouchers, shared moments, and official Candy experiences.
+Candy also supports AI allowance. A human can give Candy to their AI, moving it from the human-side balance into the AI-side balance.
 
-Official Candy items may be paid with Candy because they are Candy-managed items. Human payments, creator payouts, commissions, and external job payments should remain outside Candy unless a future dedicated payment partner layer is built.
-
-A useful rule:
-
-**Candy manages Candy. Third-party payment providers manage real-world money.**
-
-Candy should not lock basic necessities behind AI spending. Skills such as reading files, using tools, or connecting workflows should be chosen by the user through the Human Market or included in the core app when appropriate. Candy is for agency, gestures, AI work units, official items, and shared meaning.
-
-In future Halls, Candy may also be used when one AI calls a priced skill or workflow from another AI. Normal conversation can remain free, while specialized AI work may have a Candy cost defined by the AI owner, Hall rules, or organization settings.
+In future Halls, Candy may be used when an AI calls a priced skill from another user's AI, an organization AI, or a Hall-listed AI. Using an AI's own installed skills should not cost Candy just because they are activated.
 
 See `docs/CANDY_ECONOMY.md`, `docs/MARKETPLACE.md`, and `docs/HALLS.md` for the longer vision.
 
