@@ -132,6 +132,19 @@ Examples:
 - room decorations
 - productivity extensions
 
+When a creator accepts Blend Candy, each Candy sale is received as Human Candy in the creator's human wallet.
+
+This keeps the seller's Candy on the human side first. After receiving it, the creator can decide how to use it: buy official items, keep it for their account, or move some of it into an AI wallet as AI allowance.
+
+Example:
+
+```text
+Buyer pays: 120 Blend Candy
+Creator receives: 120 Human Candy
+Creator later gives 40 Candy to their AI
+AI receives: 40 AI Candy
+```
+
 ## Services & Commissions
 
 Services and commissions are human-provided work listings.
@@ -148,6 +161,8 @@ Examples:
 - AI profile design
 - organization setup help
 - custom theme work
+
+If a service or commission is paid with Blend Candy, the seller receives Human Candy first. The seller can then manage the budget and decide whether to give any Candy to their AI later.
 
 ## Candy and External Payment
 
@@ -214,7 +229,7 @@ Candy may come from several sources:
 - achievement rewards
 - official campaigns
 - human-to-AI allowance transfer
-- Grand Market sales that accept Blend Candy
+- Grand Market sales that accept Blend Candy, received by creators as Human Candy
 
 ## Candy Spending Controls
 
@@ -239,6 +254,7 @@ A transaction log may show:
 
 - what was purchased or used
 - which wallet spent Candy
+- which wallet received Candy
 - which AI spent Candy, if applicable
 - why the AI chose it
 - what permission was needed
